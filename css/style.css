@@ -5,3 +5,116 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body{
+  font-family: 'Work Sans', sans-serif;
+}
+
+/* HEADER */
+
+.header-container{
+  width: 100%;
+}
+
+/* Navtop general */
+.navtop{
+  background-color: #f5f8fa;
+  border-bottom: 1px solid #cbd6e2;
+  height: 100px;
+}
+
+/* Navtop first part */
+.elements-navtop{
+  position: relative;
+  margin-left: 50px;
+  margin-right: 50px;
+  width: 90%;
+  content:'';
+  display: table;
+  clear: both;
+}
+
+.elements-navtop ul{
+  padding-left: 120px;
+
+}
+
+.elements-navtop ul li{
+  float: left;
+  padding-top: 40px;
+  list-style: none;
+
+}
+
+.elements-navtop ul li a{
+  text-decoration: none;
+  color:grey;
+  padding-right: 30px;
+
+}
+
+.elements-navtop ul li button{
+  padding: 5px;
+  border-radius: 5px;
+}
+
+#search{
+  position: absolute;
+  right: 22%;
+  font-size: 25px;
+}
+
+#login{
+  position: absolute;
+  right: 20%;
+}
+
+#getfree{
+  display: inline-block;
+  position: absolute;
+  right:11%;
+}
+
+/* Navtop second part */
+.navbottom{
+  margin-left: 50px;
+  margin-right: 50px;
+  width: 90%;
+  }
+
+  .navbottom::after{
+    content:'';
+    display: table;
+    clear: both;
+  }
+
+.navbottom img{
+  float: left;
+  width: 10%;
+  margin-left: 108px;
+}
+
+.navlist{
+  float: right;
+  margin-right: 108px;
+}
+
+.navlist .navlist-ul li{
+  display: inline-block;
+  padding-right: 30px;
+  padding-top: 30px;
+}
+
+.navlist .navlist-ul li a{
+  text-decoration: none;
+  color: grey;
+}
+
+/* Navtop third part */
+
+.thirdmain-container{
+  height: 650px;
+  background-image: url('../img/jumbotron.png');
+  background-size: cover;
+  background-position: center;
+}
