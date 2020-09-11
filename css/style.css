@@ -20,13 +20,12 @@ body{
 .navtop{
   background-color: #f5f8fa;
   border-bottom: 1px solid #cbd6e2;
-  height: 100px;
+  height: 70px;
 }
 
-/* Navtop first part */
+/* Header first part */
 .elements-navtop{
-  position: relative;
-  margin-left: 50px;
+  margin-left: 70px;
   margin-right: 50px;
   width: 90%;
   content:'';
@@ -41,43 +40,45 @@ body{
 
 .elements-navtop ul li{
   float: left;
-  padding-top: 40px;
+  padding-top: 25px;
   list-style: none;
 
 }
 
 .elements-navtop ul li a{
   text-decoration: none;
-  color:grey;
+  color:#33475b;
   padding-right: 30px;
 
 }
 
-.elements-navtop ul li button{
-  padding: 5px;
-  border-radius: 5px;
+.elements-navtop .rightelementsnav{
+  float: right;
+  margin-right: 135px;
 }
 
 #search{
-  position: absolute;
-  right: 22%;
-  font-size: 25px;
+  margin-right: 15px;
+  margin-top: 20px;
+  vertical-align: middle;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 15px;
 }
 
-#login{
-  position: absolute;
-  right: 20%;
+.elements-navtop ul li button{
+  margin-right: 15px;
+  padding: 5px;
+  line-height: 50%;
+  border-radius: 5px;
+  background-color: orange;
+  font-size: 15px;
 }
 
-#getfree{
-  display: inline-block;
-  position: absolute;
-  right:11%;
-}
 
-/* Navtop second part */
+/* Header second part */
 .navbottom{
-  margin-left: 50px;
+  margin-left: 70px;
   margin-right: 50px;
   width: 90%;
   }
@@ -107,14 +108,47 @@ body{
 
 .navlist .navlist-ul li a{
   text-decoration: none;
-  color: grey;
+  color: #33475b;
 }
 
-/* Navtop third part */
-
+/* Header third part */
 .thirdmain-container{
+  position: relative;
   height: 650px;
   background-image: url('../img/jumbotron.png');
   background-size: cover;
-  background-position: center;
+  background-position: right;
+}
+
+.thirdmain-container h1{
+  position: absolute;
+  top:70px;
+  left:175px;
+  font-size: 50px;
+  color: #33475b;
+}
+
+.thirdmain-container .firstp{
+  position: absolute;
+  top: 215px;
+  left: 175px;
+  color: #33475b;
+  line-height: 30px;
+}
+
+.thirdmain-container button{
+  position: absolute;
+  background-color: orange;
+  border-radius: 5px;
+  font-size: 15px;
+  padding: 20px;
+  top: 325px;
+  left: 175px;
+}
+
+.thirdmain-container .secondp{
+  position: absolute;
+  bottom: 220px;
+  left: 175px;
+  color: #33475b;
 }
