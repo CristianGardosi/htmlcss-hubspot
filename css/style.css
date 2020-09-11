@@ -188,7 +188,15 @@ body{
   border: 1px solid grey;
 }
 
+.horizontal-container::after{
+  content:'';
+  display: table;
+  clear: both;
+}
+
+/* left part */
 .horiz-left-elements {
+  float: left;
   width: 30%;
 }
 
@@ -208,6 +216,41 @@ body{
   border-radius: 5px;
   font-size: 15px;
 }
+
+/* rightpart */
+.horiz-right-elements{
+  width: 70;
+}
+
+.horiz-right-elements h2{
+  padding-top: 30px;
+  color: #33475b;
+}
+
+.horiz-right-elements p{
+  padding-top: 20px;
+  color: #33475b;
+}
+
+.horiz-right-elements h4{
+  padding-top: 20px;
+  color: #33475b;
+}
+
+.horiz-right-elements ul li{
+  float: left;
+  color: #33475b;
+  list-style: none;
+}
+
+.horiz-right-elements ul li p i{
+  list-style: none;
+  padding: 0 15px;
+  margin-bottom: 40px;
+  color: orange;
+}
+
+
 
 
 
