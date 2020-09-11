@@ -57,21 +57,13 @@ body{
   margin-right: 135px;
 }
 
-#search{
-  margin-right: 15px;
-  margin-top: 20px;
-  vertical-align: middle;
-  padding: 5px;
-  border-radius: 5px;
-  font-size: 15px;
-}
 
 .elements-navtop ul li button{
   margin-right: 15px;
-  padding: 5px;
+  padding: 9px;
   line-height: 50%;
   border-radius: 5px;
-  background-color: orange;
+  background-color: #ff7800a8;
   font-size: 15px;
 }
 
@@ -120,6 +112,7 @@ body{
   background-position: right;
 }
 
+
 .thirdmain-container h1{
   position: absolute;
   top:70px;
@@ -138,7 +131,7 @@ body{
 
 .thirdmain-container button{
   position: absolute;
-  background-color: orange;
+  background-color: #ff7800a8;
   border-radius: 5px;
   font-size: 15px;
   padding: 20px;
@@ -151,4 +144,148 @@ body{
   bottom: 220px;
   left: 175px;
   color: #33475b;
+}
+
+
+/* MAIN */
+
+.imagetitle-container{
+  padding-left: 300px;
+  padding-right: 300px;
+  padding-bottom: 50px;
+  background-color: #8080802b;
+}
+
+.main-title-and-intro img{
+  margin-top:150px;
+  margin-left: 50%;
+  transform: translate(-50%, -50%);
+  width: 280px;
+}
+
+.main-title-and-intro h2{
+  text-align: center;
+  color: #33475b;
+  margin-top: 0px;
+  padding-bottom: 15px;
+}
+
+.main-title-and-intro p{
+  text-align: center;
+  color: #33475b;
+}
+
+
+/* Row con tre colonne */
+
+
+.col3-container{
+background-color: #8080802b;
+}
+
+.row3{
+  width: 80%;
+  margin:auto;
+  margin-left: 180px;
+}
+
+.row3::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.col3{
+  float: left;
+  width: 28%;
+  height: 660px;
+  margin: 20px;
+  background-color: white;
+  border: 1px solid grey;
+}
+
+.col3 img{
+  padding-left: 100px;
+  padding-top: 20px;
+}
+
+.col3 h2{
+  text-align: center;
+  padding: 20px;
+  color: #33475b;
+}
+
+.col3 p{
+  line-height: 20px;
+  text-align: center;
+  padding: 20px;
+  color: #33475b;
+}
+
+.col3 h4{
+  text-align: center;
+  padding: 20px;
+  color: #33475b;
+}
+
+.col3 i{
+  color: orange;
+}
+
+.col3 button{
+  background-color: #ff7800a8;
+  border-radius: 5px;
+  font-size: 15px;
+  padding: 20px;
+  margin-left: 90px;
+}
+
+/* Gradient banner part  */
+
+/* Banner title and p */
+.banner-container{
+  background-color: #36096d;
+background-image: linear-gradient(315deg, #36096d 0%, #37d5d6 74%);
+  height: 500px;
+}
+
+.banner-title h2{
+  padding-top: 30px;
+  padding-bottom: 20px;
+  margin-left: 130px;
+  margin-right: 130px;
+  font-size: 35px;
+  text-align: center;
+  color: white;
+}
+
+.banner-title p{
+  padding: 20px;
+  margin-left: 110px;
+  margin-right: 110px;
+  text-align: center;
+  color: white;
+}
+
+/* Banner columns and row */
+.banner-colunms-container{
+  width: 80%;
+  margin:auto;
+}
+
+.row-banner{
+
+}
+
+.row-banner::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.col-banner{
+  float: left;
+  width: 25%;
+  height: 100px;
+  background-color: red;
 }
