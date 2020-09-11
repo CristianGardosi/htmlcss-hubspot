@@ -20,7 +20,7 @@ body{
 .navtop{
   background-color: #f5f8fa;
   border-bottom: 1px solid #cbd6e2;
-  height: 70px;
+  height: 80px;
 }
 
 /* Header first part */
@@ -148,6 +148,9 @@ body{
 
 
 /* MAIN */
+.backgroundgrey{
+    background-color: #8080802b;
+}
 
 /* main intro */
 .imagetitle-container{
@@ -155,7 +158,6 @@ body{
   padding-left: 300px;
   padding-right: 300px;
   padding-bottom: 30px;
-  background-color: #8080802b;
 }
 
 .main-title-and-intro img{
@@ -177,15 +179,43 @@ body{
 }
 
 
-/* Row con tre colonne */
-.col3-container{
-background-color: #8080802b;
+
+/* Row orizzontale */
+.horizontal-container{
+  width: 71%;
+  margin: auto;
+  background-color: white;
+  border: 1px solid grey;
 }
 
+.horiz-left-elements {
+  width: 30%;
+}
+
+.horiz-left-elements img{
+  display: block;
+  padding: 20px;
+  width: 170px;
+  margin: auto;
+}
+
+.horiz-left-elements button{
+  display: block;
+  margin: auto;
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color: #ff7800a8;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+
+
+
+/* Row con tre colonne */
 .row3{
-  width: 80%;
+  width: 75%;
   margin:auto;
-  margin-left: 180px;
 }
 
 .row3::after{
@@ -196,7 +226,7 @@ background-color: #8080802b;
 
 .col3{
   float: left;
-  width: 28%;
+  width: 29%;
   height: 660px;
   margin: 20px;
   background-color: white;
