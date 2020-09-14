@@ -10,11 +10,13 @@ body{
   font-family: 'Work Sans', sans-serif;
 }
 
+
 /* HEADER */
 
 .header-container{
   width: 100%;
 }
+
 
 /* Navtop general */
 .navtop{
@@ -23,7 +25,8 @@ body{
   height: 80px;
 }
 
-/* Header first part */
+
+/* Header first nav part */
 .elements-navtop{
   margin: auto;
   width: 90%;
@@ -41,14 +44,13 @@ body{
   float: left;
   padding-top: 25px;
   list-style: none;
-
 }
 
 .elements-navtop ul li a{
   text-decoration: none;
   color:#33475b;
   padding-right: 30px;
-
+  vertical-align: middle;
 }
 
 .elements-navtop .rightelementsnav{
@@ -65,22 +67,30 @@ body{
   padding: 9px;
   line-height: 50%;
   border-radius: 5px;
-  background-color: #ff7800a8;
+  color: white;
+  background-color: #ff7a59;
   font-size: 15px;
 }
 
+#whitebutton{
+  margin-top: 1.5px;
+  color: #ff7a59;
+  background-color: white;
+  border: 1px solid #ff7a59;
+}
 
-/* Header second part */
+
+/* Header second nav part */
 .navbottom{
   margin: auto;
   width: 90%;
-  }
+}
 
 .navbottom::after{
     content:'';
     display: table;
     clear: both;
-  }
+}
 
 .navbottom img{
   float: left;
@@ -104,7 +114,8 @@ body{
   color: #33475b;
 }
 
-/* Header third part */
+
+/* Header main area */
 .thirdmain-container{
   position: relative;
   height: 650px;
@@ -131,7 +142,8 @@ body{
 
 .thirdmain-container button{
   position: absolute;
-  background-color: #ff7800a8;
+  color: white;
+  background-color: #ff7a59;
   border-radius: 5px;
   font-size: 15px;
   padding: 20px;
@@ -148,11 +160,13 @@ body{
 
 
 /* MAIN */
+
 .backgroundgrey{
     background-color: #8080802b;
 }
 
-/* main intro */
+
+/* Fisrt part  main area (main intro) */
 .imagetitle-container{
   text-align: center;
   padding-left: 300px;
@@ -179,8 +193,7 @@ body{
 }
 
 
-
-/* Row orizzontale */
+/* Box grande orizzontale */
 .horizontal-container{
   width: 71%;
   margin: auto;
@@ -212,14 +225,15 @@ body{
   margin: auto;
   margin-bottom: 20px;
   padding: 15px;
-  background-color: #ff7800a8;
+  color: white;
+  background-color: #ff7a59;
   border-radius: 5px;
   font-size: 15px;
 }
 
 /* rightpart */
 .horiz-right-elements{
-  width: 70;
+  width: 70%;
 }
 
 .horiz-right-elements h2{
@@ -247,15 +261,11 @@ body{
   list-style: none;
   padding: 0 15px;
   margin-bottom: 40px;
-  color: orange;
+  color: #ff7a59;
 }
 
 
-
-
-
-
-/* Row con tre colonne */
+/* Row con tre col */
 .row3{
   width: 75%;
   margin:auto;
@@ -301,18 +311,20 @@ body{
 }
 
 .col3 i{
-  color: orange;
+  color: #ff7a59;
 }
 
 .col3 button{
-  background-color: #ff7800a8;
+  color: white;
+  background-color: #ff7a59;
   border-radius: 5px;
   font-size: 15px;
   padding: 20px;
   margin-left: 90px;
 }
 
-/* Gradient banner */
+
+/* Second part main area (gradient banner) */
 /* Banner title and p */
 .banner-container{
   background-color: #36096d;
@@ -322,7 +334,7 @@ padding-bottom: 50px;
 
 .banner-title h2{
   padding-top: 30px;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
   margin-left: 130px;
   margin-right: 130px;
   font-size: 35px;
@@ -337,6 +349,7 @@ padding-bottom: 50px;
   text-align: center;
   color: white;
 }
+
 
 /* Banner columns and row */
 .banner-colunms-container{
@@ -355,7 +368,6 @@ padding-bottom: 50px;
   width: 25%;
   height: 200px;
   border: 1px solid white;
-
 }
 
 .col-banner p {
@@ -377,4 +389,97 @@ padding-bottom: 50px;
   font-size: 50px;
   text-align: center;
   color: white;
+}
+
+
+/* Third part main area */
+
+/* Partner area (1/2) third part */
+.partner-area{
+  margin: 30px auto;
+  width: 80%;
+  height: 170px;
+  content: '';
+  display: table;
+  clear: both;
+  /* background-color: grey; */
+}
+
+.left-data{
+  float: left;
+  width: 40%;
+}
+
+.left-data h1{
+  padding: 20px 30px;
+  font-size: 40px;
+  color: #33475b;
+  text-align: center;
+}
+
+.left-data p{
+  color: #33475b;
+  text-align: center;
+}
+
+.right-data-logos{
+  float: left;
+  width: 55%;
+}
+
+.right-data-logos img{
+  float: right;
+  width: 100px;
+  padding-top: 35px;
+  margin-bottom: -15px;
+  margin-left: 30px;
+  margin-right: 10px;
+}
+
+/* Startgrowing-area (2/2) third part */
+
+.startgrowing-area{
+  margin: 50px auto;
+  width: 80%;
+  /* height: 170px; */
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.left-growing-text{
+  float: left;
+  width: 50%;
+}
+
+.left-growing-text h1{
+  padding-left: 30px;
+  color: #33475b;
+  margin-bottom: 30px;
+}
+
+.left-growing-text p{
+  padding-left: 30px;
+  color: #33475b
+}
+
+.left-growing-text button{
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: 25px;
+  padding: 20px;
+  color: white;
+  background-color: #ff7a59;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+#minip{
+  font-size: 13px;
+}
+
+.right-growing-image img{
+  float: right;
+  margin-right: 50px;
+  width: 250px;
 }
