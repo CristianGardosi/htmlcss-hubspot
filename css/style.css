@@ -62,6 +62,7 @@ body{
   margin-right: -30px;
   font-size: 25px;
 }
+
 .elements-navtop ul li button{
   margin-left: 15px;
   padding: 9px;
@@ -116,46 +117,43 @@ body{
 
 
 /* Header main area */
-.thirdmain-container{
-  position: relative;
+.jumbotron-container{
   height: 650px;
   background-image: url('../img/jumbotron.png');
   background-size: cover;
   background-position: right;
 }
 
-.thirdmain-container h1{
-  position: absolute;
-  top:70px;
-  left:175px;
-  font-size: 50px;
-  color: #33475b;
+.jumbotron-text{
+  width: 40%;
+  margin-left:180px;
+  color: #33475b
 }
 
-.thirdmain-container .firstp{
-  position: absolute;
-  top: 215px;
-  left: 175px;
-  color: #33475b;
+.jumbotron-container h1{
+  padding-top: 70px;
+  margin-bottom: 30px;
+  font-size: 50px;
+}
+
+.jumbotron-container .firstp{
   line-height: 30px;
 }
 
-.thirdmain-container button{
-  position: absolute;
+.jumbotron-container button{
+
   color: white;
   background-color: #ff7a59;
   border-radius: 5px;
   font-size: 15px;
   padding: 20px;
-  top: 325px;
-  left: 175px;
+  margin-top: 30px;
+
 }
 
-.thirdmain-container .secondp{
-  position: absolute;
-  bottom: 200px;
-  left: 175px;
-  color: #33475b;
+.jumbotron-container .secondp{
+  margin-top: 30px;
+  font-size: 13px;
 }
 
 
@@ -169,8 +167,8 @@ body{
 /* Fisrt part  main area (main intro) */
 .imagetitle-container{
   text-align: center;
-  padding-left: 300px;
-  padding-right: 300px;
+  width: 60%;
+  margin: auto;
   padding-bottom: 30px;
 }
 
@@ -184,7 +182,7 @@ body{
   text-align: center;
   color: #33475b;
   margin-top: 0px;
-  padding-bottom: 35px;
+  padding-bottom: 25px;
 }
 
 .main-title-and-intro p{
@@ -234,26 +232,23 @@ body{
 /* rightpart */
 .horiz-right-elements{
   width: 70%;
+  color: #33475b;
 }
 
 .horiz-right-elements h2{
   padding-top: 30px;
-  color: #33475b;
 }
 
 .horiz-right-elements p{
   padding-top: 20px;
-  color: #33475b;
 }
 
 .horiz-right-elements h4{
   padding-top: 20px;
-  color: #33475b;
 }
 
 .horiz-right-elements ul li{
   float: left;
-  color: #33475b;
   list-style: none;
 }
 
@@ -284,6 +279,7 @@ body{
   margin: 20px;
   background-color: white;
   border: 1px solid grey;
+  color: #33475b;
 }
 
 .col3 img{
@@ -294,20 +290,17 @@ body{
 .col3 h2{
   text-align: center;
   padding: 20px;
-  color: #33475b;
 }
 
 .col3 p{
   line-height: 20px;
   text-align: center;
   padding: 20px;
-  color: #33475b;
 }
 
 .col3 h4{
   text-align: center;
   padding: 20px;
-  color: #33475b;
 }
 
 .col3 i{
@@ -408,17 +401,16 @@ padding-bottom: 50px;
 .left-data{
   float: left;
   width: 40%;
+    color: #33475b;
 }
 
 .left-data h1{
   padding: 20px 30px;
   font-size: 40px;
-  color: #33475b;
   text-align: center;
 }
 
 .left-data p{
-  color: #33475b;
   text-align: center;
 }
 
@@ -450,17 +442,16 @@ padding-bottom: 50px;
 .left-growing-text{
   float: left;
   width: 50%;
+    color: #33475b;
 }
 
 .left-growing-text h1{
   padding-left: 30px;
-  color: #33475b;
   margin-bottom: 30px;
 }
 
 .left-growing-text p{
   padding-left: 30px;
-  color: #33475b
 }
 
 .left-growing-text button{
@@ -474,12 +465,20 @@ padding-bottom: 50px;
   font-size: 15px;
 }
 
-#minip{
+.minip{
   font-size: 13px;
 }
 
 .right-growing-image img{
   float: right;
   margin-right: 50px;
-  width: 250px;
+  width: 265px;
+}
+
+
+/* FOOTER */
+
+footer{
+  background-color: #33475b;
+  height: 1000px;
 }
