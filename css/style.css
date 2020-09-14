@@ -216,6 +216,7 @@ body{
   padding: 20px;
   width: 170px;
   margin: auto;
+  margin-top: 20px;
 }
 
 .horiz-left-elements button{
@@ -231,7 +232,7 @@ body{
 
 /* rightpart */
 .horiz-right-elements{
-  width: 70%;
+  width: 90%;
   color: #33475b;
 }
 
@@ -250,11 +251,12 @@ body{
 .horiz-right-elements ul li{
   float: left;
   list-style: none;
+  padding: 0 15px;
 }
 
 .horiz-right-elements ul li p i{
   list-style: none;
-  padding: 0 15px;
+  padding-right: 10px;
   margin-bottom: 40px;
   color: #ff7a59;
 }
@@ -262,7 +264,7 @@ body{
 
 /* Row con tre col */
 .row3{
-  width: 75%;
+  width: 76%;
   margin:auto;
 }
 
@@ -480,5 +482,117 @@ padding-bottom: 50px;
 
 footer{
   background-color: #33475b;
-  height: 1000px;
+}
+
+.footer-container{
+  margin:auto;
+  width: 80%;
+  content: ('');
+  display: table;
+  clear: both;
+}
+
+.footer-row{
+}
+
+.footer-row::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.footer-col{
+  float: left;
+  margin-top: 30px;
+  width: 25%;
+  height: 200px;
+  color: white;
+}
+
+.footer-col h4{
+  margin-bottom: 25px;
+  padding-left: 10px;
+}
+
+.footer-col ul li{
+  list-style: none;
+  color: #cbd6e2;
+  line-height: 35px;
+  padding-left: 10px;
+}
+
+.footer-col ul li a{
+  text-decoration: none;
+    color: #cbd6e2;
+}
+
+.footer-col ul li a:hover{
+  color: #ff7a59;
+}
+
+.footer-col ul li button{
+  margin-top: 10px;
+  padding: 13px;
+  color: #47596b;
+  background-color: #ffffff;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+.sociallinks{
+  padding: 15px 9px;
+  font-size: 18px;
+
+}
+
+.footer-lenguages{
+  margin: auto;
+  margin-top: 180px;
+  margin-bottom: 30px;
+  content: ('');
+  display: table;
+  clear: both;
+}
+
+.footer-lenguages ul li{
+  list-style: none;
+  float: left;
+}
+
+.footer-lenguages ul li a{
+  padding: 0 20px;
+  text-decoration: none;
+  color: #cbd6e2;
+}
+
+.footer-lenguages ul li a:hover{
+  color: #ff7a59;
+}
+
+footer hr{
+  color:  #cbd6e2;
+}
+
+.last-left-elements{
+  float: left;
+}
+
+.last-left-elements img{
+  margin-top: 30px;
+}
+
+.last-right-elements{
+  float: right;
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+
+.last-right-elements a{
+  padding: 0 20px;
+  text-decoration: none;
+  color: #cbd6e2;
+}
+
+.last-right-elements a:hover{
+  color: #ff7a59;
 }
