@@ -35,11 +35,6 @@ body{
   clear: both;
 }
 
-.elements-navtop ul{
-  padding-left: 120px;
-
-}
-
 .elements-navtop ul li{
   float: left;
   padding-top: 25px;
@@ -53,17 +48,17 @@ body{
   vertical-align: middle;
 }
 
-.elements-navtop .rightelementsnav{
+.leftelementsnav ul{
+  padding-left: 120px;
+
+}
+
+.rightelementsnav{
   float: right;
   margin-right: 135px;
 }
 
-#search{
-  margin-right: -30px;
-  font-size: 25px;
-}
-
-.elements-navtop ul li button{
+.rightelementsnav ul li button{
   margin-left: 15px;
   padding: 9px;
   line-height: 50%;
@@ -71,6 +66,11 @@ body{
   color: white;
   background-color: #ff7a59;
   font-size: 15px;
+}
+
+#search{
+  margin-right: -30px;
+  font-size: 25px;
 }
 
 #whitebutton{
@@ -130,18 +130,17 @@ body{
   color: #33475b
 }
 
-.jumbotron-container h1{
+.jumbotron-text h1{
   padding-top: 70px;
   margin-bottom: 30px;
   font-size: 50px;
 }
 
-.jumbotron-container .firstp{
+.jumbotron-text .firstp{
   line-height: 30px;
 }
 
-.jumbotron-container button{
-
+.jumbotron-text button{
   color: white;
   background-color: #ff7a59;
   border-radius: 5px;
@@ -151,7 +150,7 @@ body{
 
 }
 
-.jumbotron-container .secondp{
+.jumbotron-text .secondp{
   margin-top: 30px;
   font-size: 13px;
 }
@@ -181,7 +180,6 @@ body{
 .main-title-and-intro h2{
   text-align: center;
   color: #33475b;
-  margin-top: 0px;
   padding-bottom: 25px;
 }
 
@@ -236,16 +234,11 @@ body{
   color: #33475b;
 }
 
-.horiz-right-elements h2{
+.horiz-right-elements
+p,
+h2,
+h4{
   padding-top: 30px;
-}
-
-.horiz-right-elements p{
-  padding-top: 20px;
-}
-
-.horiz-right-elements h4{
-  padding-top: 20px;
 }
 
 .horiz-right-elements ul li{
@@ -277,45 +270,54 @@ body{
 .col3{
   float: left;
   width: 29%;
-  height: 660px;
+  height: 685px;
   margin: 20px;
   background-color: white;
   border: 1px solid grey;
   color: #33475b;
 }
 
-.col3 img{
+/* Prima parte di elementi interni alle 3 col */
+.col3-firstpart-elements img{
   padding-left: 100px;
   padding-top: 20px;
 }
 
-.col3 h2{
+
+.col3-firstpart-elements  h2{
   text-align: center;
   padding: 20px;
 }
 
-.col3 p{
-  line-height: 20px;
+.col3-firstpart-elements  p{
+  line-height: 28px;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.col3-firstpart-elements h4{
   text-align: center;
   padding: 20px;
 }
 
-.col3 h4{
-  text-align: center;
-  padding: 20px;
+/* Seconda parte di elementi interni alle 3 col */
+.col3-secondpart-elements{
+  padding: 10px 20px;
 }
 
-.col3 i{
+.col3-secondpart-elements i{
   color: #ff7a59;
 }
 
-.col3 button{
+.col3-secondpart-elements button{
   color: white;
   background-color: #ff7a59;
   border-radius: 5px;
   font-size: 15px;
   padding: 20px;
-  margin-left: 90px;
+  margin-top: 40px;
+  margin-left: 65px;
 }
 
 
@@ -325,6 +327,10 @@ body{
   background-color: #36096d;
 background-image: linear-gradient(315deg, #36096d 0%, #37d5d6 74%);
 padding-bottom: 50px;
+}
+
+.banner-title{
+  text-align: 
 }
 
 .banner-title h2{
