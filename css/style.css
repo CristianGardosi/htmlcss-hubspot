@@ -17,7 +17,6 @@ body{
   width: 100%;
 }
 
-
 /* Navtop general */
 .navtop{
   background-color: #f5f8fa;
@@ -29,7 +28,7 @@ body{
 /* Header first nav part */
 .elements-navtop{
   margin: auto;
-  width: 90%;
+  width: 75%;
   content:'';
   display: table;
   clear: both;
@@ -44,23 +43,22 @@ body{
 .elements-navtop ul li a{
   text-decoration: none;
   color:#33475b;
-  padding-right: 30px;
+  padding-right: 15px;
   vertical-align: middle;
 }
 
-.leftelementsnav ul{
-  padding-left: 120px;
-
+.leftelements{
+  margin-left: 10px;
 }
 
 .rightelementsnav{
   float: right;
-  margin-right: 135px;
+  margin-right: 28px;
 }
 
 .rightelementsnav ul li button{
   margin-left: 15px;
-  padding: 9px;
+  padding: 13px;
   line-height: 50%;
   border-radius: 5px;
   color: white;
@@ -69,8 +67,8 @@ body{
 }
 
 #search{
-  margin-right: -30px;
-  font-size: 25px;
+  margin-right: -12px;
+  font-size: 30px;
 }
 
 #whitebutton{
@@ -84,7 +82,8 @@ body{
 /* Header second nav part */
 .navbottom{
   margin: auto;
-  width: 90%;
+  width: 75%;
+  height: 80px;
 }
 
 .navbottom::after{
@@ -96,23 +95,28 @@ body{
 .navbottom img{
   float: left;
   width: 10%;
-  margin-left: 108px;
+  margin-top: 10px;
 }
 
 .navlist{
   float: right;
-  margin-right: 108px;
 }
 
 .navlist .navlist-ul li{
   display: inline-block;
   padding-right: 30px;
-  padding-top: 30px;
+  padding-top: 32px;
 }
 
 .navlist .navlist-ul li a{
   text-decoration: none;
   color: #33475b;
+}
+
+.navlist .navlist-ul li a:hover{
+  background-color: #ff7a59;
+  padding: 2px;
+  border-radius: 5px;
 }
 
 
@@ -172,12 +176,12 @@ body{
 }
 
 .main-title-and-intro img{
-  margin-top: 30px;
-  margin-bottom: 20px;
+  margin-top: 35px;
   width: 280px;
 }
 
 .main-title-and-intro h2{
+  font-size: 35px;
   text-align: center;
   color: #33475b;
   padding-bottom: 25px;
@@ -193,6 +197,7 @@ body{
 .horizontal-container{
   width: 71%;
   margin: auto;
+  padding-left: 20px;
   background-color: white;
   border: 1px solid grey;
 }
@@ -270,7 +275,7 @@ h4{
 .col3{
   float: left;
   width: 29%;
-  height: 685px;
+  height: 680px;
   margin: 20px;
   background-color: white;
   border: 1px solid grey;
@@ -330,7 +335,7 @@ padding-bottom: 50px;
 }
 
 .banner-title{
-  text-align: 
+  text-align:
 }
 
 .banner-title h2{
@@ -392,9 +397,7 @@ padding-bottom: 50px;
   color: white;
 }
 
-
 /* Third part main area */
-
 /* Partner area (1/2) third part */
 .partner-area{
   margin: 30px auto;
@@ -403,7 +406,6 @@ padding-bottom: 50px;
   content: '';
   display: table;
   clear: both;
-  /* background-color: grey; */
 }
 
 .left-data{
@@ -437,11 +439,9 @@ padding-bottom: 50px;
 }
 
 /* Startgrowing-area (2/2) third part */
-
 .startgrowing-area{
   margin: 50px auto;
   width: 80%;
-  /* height: 170px; */
   content: '';
   display: table;
   clear: both;
@@ -450,7 +450,7 @@ padding-bottom: 50px;
 .left-growing-text{
   float: left;
   width: 50%;
-    color: #33475b;
+  color: #33475b;
 }
 
 .left-growing-text h1{
@@ -548,7 +548,6 @@ footer{
 .sociallinks{
   padding: 15px 9px;
   font-size: 18px;
-
 }
 
 .footer-lenguages{
@@ -579,6 +578,7 @@ footer hr{
   color:  #cbd6e2;
 }
 
+/* ending line */
 .last-left-elements{
   float: left;
 }
